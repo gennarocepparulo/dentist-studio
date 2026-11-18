@@ -1,0 +1,63 @@
+body {
+    background: rgb(146, 237, 222);
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: rgb(4, 4, 15);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #41a0a5;
+    border: 1px solid #ccc;
+}
+.result {
+    width: 400px;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgb(111, 165, 178);
+    border: 1px solid #99c;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: rgb(217, 237, 146);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.boton {
+    position: relative;
+    width: 95px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 22px;
+    z-index: 4;
+    font-family: "Source Sans Pro", sans-serif;
+
+}
