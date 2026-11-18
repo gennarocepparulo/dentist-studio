@@ -1,42 +1,124 @@
-<!doctype html>
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dentist Studio</title>
-    <link rel="stylesheet" href="index.css">
-  </head>
-<header>
-    <body>
-    <main class="container">
-    <h1>Welcome To the Dentist</h1>
-    <p>To continue please</p>
-    
-<nav>
-<main>
-    <h2>Register / Login</h2>
 
-<form action="registration.php" method="POST">
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <input type="text" name="username" placeholder="Username" required>
-    <br><br>
+<body>
 
-    <input type="password" name="password" placeholder="Password" required>
-    <br><br>
+    <header>
 
-    <input type="password" name="repeat_password" placeholder="Repeat Password" required>
-    <br><br>
+        <h1>Dentist Studio</h1>
 
-    <button type="submit" name="action" value="register">
-        Register
-    </button>
+        <p>
+            Denti sani e pazienti felici!
+        </p>
 
-    <button type="submit" name="action" value="login">
-        Login
-    </button>
+    </header>
 
-</form>
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.php">
+                    Home
+                </a>
+            </li>
+
+            <li>
+                <a href="registration.php">
+                    New Patient
+                </a>
+            </li>
+
+            <li>
+                <a href="patients.php">
+                    Patients
+                </a>
+            </li>
+
+            <li>
+                <a href="appointments.php">
+                    Appointments
+                </a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <section>
+
+            <h2>Welcome to Dentist Studio</h2>
+
+            <p>
+                This application allows you to manage patients,
+                appointments and clinical information in a simple
+                and organized way.
+            </p>
+
+        </section>
+
+        <section>
+
+            <h2>Services</h2>
+
+            <ul>
+
+                <li>General Dentistry</li>
+
+                <li>Dental Hygiene</li>
+
+                <li>Orthodontics</li>
+
+                <li>Dental Implants</li>
+
+                <li>Periodontal Care</li>
+
+            </ul>
+
+        </section>
+
+        <section>
+
+            <h2>Quick Access</h2>
+
+            <p>
+                Use the menu above to:
+            </p>
+
+            <ul>
+
+                <li>Register a new patient</li>
+
+                <li>View patient records</li>
+
+                <li>Manage appointments</li>
+
+                <li>Export patient data to JSON</li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>
+            Dentist Studio © 2026
+        </p>
+
+    </footer>
 
 </body>
-<section>
-<footer>
+
+</html>
